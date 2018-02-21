@@ -1,0 +1,17 @@
+html{
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+/*
+.box {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    border: 5px red solid;
+}
+.options {
+    flex-direction: column;
+}*/

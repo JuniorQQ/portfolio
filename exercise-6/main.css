@@ -1,0 +1,96 @@
+.clearfix::after, .clearfix::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    background: hotpink;
+    padding: 30px;
+}
+main { 
+    
+    height: 490px;
+    width: 900px;
+    margin: 100px auto;
+}
+
+.left-side {
+    background-image: url(img/74fb3e117f.jpg);
+    float: left;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.left-side .logo {
+    margin: 15px 0 0 15px;
+}
+
+.left-side h1 {
+    margin: 150px 0 0 50px;
+    width: 50%;
+}
+
+.right-side {
+    height: 100%;
+    background: linear-gradient(#374961, #222e3f);
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.button-top {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.button-top a.sign-in {
+    background: gray;
+    border-radius: 10px 0 0 10px;
+    padding: 5px;
+    color: lightgray;
+    font-size: 12px;
+}
+
+.button-top a.sign-up {
+    background: green;
+    border-radius: 0 10px 10px 0;
+    padding: 5px;
+    color: white;
+    box-shadow: 0px 5px 10px gray;
+    font-size: 12px;
+}
+
+.sign {
+    margin: 100px 0 0 110px;
+}
+
+fieldset {
+    border: none;
+    margin: 0 0 0 100px;
+    
+}
+label {
+    display: block;
+    color: white;
+}
+
+input {
+    border:none;
+    background: none;
+    border-bottom: 1px gray solid;
+}
+.term {
+    display: inline;
+}
+input[type=submit]{
+    background: linear-gradient(#6fe0ca, #5fc2b7);
+    border-radius: 15px;
+    border: none;
+    
+}

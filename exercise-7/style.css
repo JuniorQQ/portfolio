@@ -1,0 +1,62 @@
+.clearfix::after, .clearfix::before{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    margin: 0 auto;
+    background: #f2f3f7;
+    width: 100%;
+}
+
+nav img {
+    float: right;
+    margin: 20px 20px 20px 0;
+
+}
+section {
+    box-sizing: border-box;
+    float: left;
+    background: #f2f8f8;
+    width: 45%;
+}
+.header {
+    border: 2px #e8eff7 solid;
+    width: 80%;
+    margin-left: 50px;
+    padding: 25px;
+    background: white;
+    margin: 0 auto;
+}
+.left {
+    border: 2px green solid;
+}
+
+.right {
+    border: 2px green solid;
+    margin-left: 100px;
+    display: block;
+}
+.right article p{
+    
+    
+}
+.right article img {
+    float: left;
+    padding: 10px;
+    border: 1px red solid;
+}
+
+.right article div {
+    float: left;
+    width: 70%;
+}
+
+.right article h5 {
+    margin-top: 0;
+}
+
+.chapter_pic {
+    width: 50px;
+}

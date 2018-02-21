@@ -1,0 +1,48 @@
+.clearfix::after, .clearfix::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    
+}
+
+header {
+   background-image: url(img/matrix-2354492.jpg); 
+}
+header h5 {
+    color: white;
+    font-family: 'Press Start 2P';
+    width: 1ch;
+    font-size: 15px;
+    text-align: center; 
+    word-wrap: break-word;
+    margin: 20px 0 0 7px;
+}
+
+main h1, main h4 {
+    color: gold;
+    text-align: center;
+}
+main h4{
+    margin: 50px 0 0 0;
+}
+
+p {
+    color: gold;
+    font-size: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 100%;
+}
